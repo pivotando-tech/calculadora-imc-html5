@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background-color: #262626;
     color: #f8fafc;
 }
@@ -48,10 +48,10 @@ body {
     content: '';
     background-color: #16a34a;
     width: 8rem;
-    height: 3px;
+    height: 0.188rem;
     bottom: 0;
     left: 0;
-    border-radius: 3px;
+    border-radius: 1.188rem;
 }
 
 .input-box label {
@@ -66,8 +66,8 @@ body {
     justify-content: space-between;
     bottom: #3f3f46;
     padding: 0.3rem;
-    border-radius: 3px;
-    margin-top: 3px;  
+    border-radius: 1.188rem;
+    margin-top: 1.188rem;  
 }
 
 .input-field span,
@@ -80,8 +80,8 @@ body {
 
 .input-field input {
     background-color: transparent;
-    border: 1px solid black;
-    border-radius: 8px;
+    border: 0.063rem solid black;
+    border-radius: 0.5rem;
     width: 100%;
     font-size: 1.3rem;
     color: white;
@@ -97,14 +97,14 @@ body {
     outline: none;
 }
 
-#calculate {
+#button-calculate {
     border: none;
     font-size: 1.25rem;
     font-weight: bold;
     background-color: #16a34a;
     color: #f8fafc;
     padding: 0.5rem 0;
-    border-radius: 3px;
+    border-radius: 1.188rem;
     cursor: pointer;
 }
 
@@ -112,7 +112,7 @@ body {
     display: flex;
     gap: 2rem;
     align-items: center;
-    border-top: 1px solid #ffffff34;
+    border-top: 0.063rem solid #ffffff34;
     padding: 0.75rem 0;
 }
 
@@ -131,12 +131,12 @@ body {
     width: 15.5rem;
 }
 
-#more_info {
-    border-top: 1px solid #ffffff34;
+#section-more-info {
+    border-top: 0.063rem solid #ffffff34;
     padding-top: 1.5rem;
 }
 
-#more_info a {
+#section-more-info a {
     color: #16a34a;
     display: flex;
     justify-content: center;
@@ -147,7 +147,7 @@ body {
     transition: color 0.5s;
 }
 
-#more_info a:hover {
+#section-more-info a:hover {
     color: #cbd5e1;
 }
 
